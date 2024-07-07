@@ -23,11 +23,11 @@
       public LayerMask collisionLayerMask;
 
       [Header ("Friction")]
-      public float tireGripFactor = 1;
+      public float tireGripFactor = 0.03f;
 
       [Header ("Suspension")]
-      public float suspensionRestDist = .5f;
-      public float springStrength, springDamper;
+      public float suspensionRestDist = 0.5f;
+      public float springStrength = 400, springDamper = 20;
 
       [Header ("Gizmos")]
       public int wheelGizmoResolution = 32;

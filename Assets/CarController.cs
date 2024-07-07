@@ -15,8 +15,8 @@ public class CarController : MonoBehaviour {
     public DriveType driveType = DriveType.FWD;
     public float currentSteerAngle, currentMotorForce, currentBrakeForce;
     public enum DriveType { FWD, RWD, AWD }
-    public float motorForce = 1000f, brakeForce = 2000f,
-        boostForce = 10f, downForce = 0.1f;
+    public float motorForce = 1000f, brakeForce = 100f,
+        boostForce = 10f, downForce = 2f;
 
     List<Wheel> wheels;
     float steerInput, accelerationInput;
