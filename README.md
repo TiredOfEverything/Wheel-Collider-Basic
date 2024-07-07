@@ -4,7 +4,7 @@
  It is based off of the custom wheel collider built here:
  https://m.youtube.com/watch?v=CdPYlj5uZeI
 
- The Unity script, `Wheel`, provides a very basic simulation of wheel a wheel suitable for vehicle physics.
+ The Unity script, `Wheel`, provides a very basic simulation of a wheel suitable for vehicle physics.
 
  
  ## Script Parameters
