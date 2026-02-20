@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Wheel-Collider-Basic.sln"
+    "dotnet.defaultSolution": "Wheel-Collider-Basic.slnx"
 }
